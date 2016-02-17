@@ -204,7 +204,7 @@ public class GameWorld {
     		return 0;
     	case "Theatre Film + Television":
     		return 7;
-    	case "Law + Management School"
+    	case "Law + Management School":
     	    return 1;
     	case "Goodricke College":
     		return 9;
