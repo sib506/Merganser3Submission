@@ -202,7 +202,7 @@ public class GameWorld {
     		return 8;
     	case "Computer Science":
     		return 0;
-    	case "Theatre Film + Television":
+    	case "Theatre, Film + Television":
     		return 7;
     	case "Law + Management School":
     	    return 1;
