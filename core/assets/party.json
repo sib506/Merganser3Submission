@@ -1,0 +1,97 @@
+{
+"partyList":[{
+	"name":"Electro-duck",
+	"type":"FRIENDLY",
+	"stats":{
+		"currentHP":150,
+		"currentMP":100,
+		"maxHP":150,
+		"maxMP":100,
+		"speed":5,
+		"strength":2,
+		"dexterity":2,
+		"intelligence":3,
+		"baseArmourVal":2,
+		"armourVal":2,
+		"experience":2,
+		"currentLevel":1,
+		"maxLevel":20
+		},
+	"skills":[17, 0],
+	"equipment":{
+		"equipSlots":[1,0,0,0,0]
+		}
+	},
+	{
+	"name":"Pyro-duck",
+	"type":"FRIENDLY",
+	"stats":{
+		"currentHP":150,
+		"currentMP":100,
+		"maxHP":150,
+		"maxMP":100,
+		"speed":3,
+		"strength":2,
+		"dexterity":2,
+		"intelligence":5,
+		"baseArmourVal":2,
+		"armourVal":2,
+		"experience":2,
+		"currentLevel":1,
+		"maxLevel":20
+		},
+	"skills":[17, 1],
+	"equipment":{
+		"equipSlots":[1,0,0,0,0]
+		}
+	},
+	{
+	"name":"Cryo-duck",
+	"type":"FRIENDLY",
+	"stats":{
+		"currentHP":150,
+		"currentMP":100,
+		"maxHP":150,
+		"maxMP":100,
+		"speed":1,
+		"strength":2,
+		"dexterity":2,
+		"intelligence":2,
+		"baseArmourVal":2,
+		"armourVal":2,
+		"experience":2,
+		"currentLevel":1,
+		"maxLevel":20
+		},
+	"skills":[17, 2],
+	"equipment":{
+		"equipSlots":[0,0,0,0,0]
+		}
+	},
+	{
+	"name":"Medic duck",
+	"type":"FRIENDLY",
+	"stats":{
+		"currentHP":150,
+		"currentMP":100,
+		"maxHP":150,
+		"maxMP":100,
+		"speed":0,
+		"strength":2,
+		"dexterity":2,
+		"intelligence":2,
+		"baseArmourVal":2,
+		"armourVal":2,
+		"experience":2,
+		"currentLevel":1,
+		"maxLevel":20
+		},
+	"skills":[17, 3],
+	"equipment":{
+		"equipSlots":[0,0,0,0,0]
+		}
+	}	
+	],
+	"consumables": [],
+	"equipables": [1]
+}

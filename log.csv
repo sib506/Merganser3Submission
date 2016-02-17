@@ -1,0 +1,71 @@
+6f47618,Scott Brown,2 minutes ago,Fixed MP bugs
+a4c2ddb,Scott Brown,8 hours ago,Fixed game over screen
+50f3460,Scott Brown,17 hours ago,Reorganised into packages - tidy
+27ac931,Scott Brown,17 hours ago,Changed equipment section in PartyMenu to show current Items. These are received when you talk to Sally, Bob and when you complete 10 battles.
+aa1a284,Scott Brown,18 hours ago,Fixed so only removes 1 instance of item
+16d4e87,Scott Brown,18 hours ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+e5de411,Scott Brown,18 hours ago,Added some items when talking to Bob. Removed items from initialising at start
+a46ee53,DavidHarvey426,18 hours ago,updated flying frames
+40b02cb,Scott Brown,19 hours ago,Update checking whether all objectives complete
+83bc7e9,Scott Brown,20 hours ago,Got items working - can now decrement items when used and add new items when needed
+f0cbe71,Scott Brown,23 hours ago,Reset RoboDuck health
+0d52195,Scott Brown,23 hours ago,Make directions a bit less specific
+7759cb4,Scott Brown,23 hours ago,Added another NPC "Bob" to tell how to find RoboDuck mk 2.
+624b8c3,Scott Brown,26 hours ago,Updated Location names
+bab94ba,Scott Brown,32 hours ago,Campus map
+6f942f0,Scott Brown,2 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+9aeb0be,Scott Brown,2 days ago,Fixed error with objectives causing game to crash - was trying to check an objective that had already been removed. Just check whether in HashMap instead. Also changed movement of menus to be more natural
+a84ab52,Scott Brown,2 days ago,Enemies now added after you have talked to friendly NPC. Added a new evil NPC
+934c7ef,Scott Brown,2 days ago,Prevented a bug with battleMenu causing an out of bounds exception when rendering/ selecting on item screens
+99e62cd,Scott Brown,2 days ago,Flying now fully implemented and working (new sprite needed)
+b4aaf30,Scott Brown,2 days ago,Updated map to avoid going off the edge
+91b7091,dh900,2 days ago,Update party.json
+0f6edf8,dh900,2 days ago,renamed roboduck2's unique skill
+8604732,Scott Brown,2 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+cdec812,Scott Brown,2 days ago,Flying part implemented
+77f90df,dh900,2 days ago,Changed roboduck flavourtext
+47181c1,dh900,2 days ago,added EvilNPC initialiser
+b537498,dh900,2 days ago,removed while loop
+ba24e3a,Scott Brown,3 days ago,Fixed location display
+2ffbb85,Scott Brown,3 days ago,Passed level to UIMap to allow drawing of players current position on the map
+9762a82,Scott Brown,3 days ago,Changed swimming frames
+6b9b0ff,Scott Brown,3 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+aa36cd3,Scott Brown,3 days ago,Changed battle screen backgrounds to represent the location the player is currently in
+3edb045,DavidHarvey426,3 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+0d2cda2,DavidHarvey426,3 days ago,Added assets for swimming & dead evil duck
+250f732,Scott Brown,3 days ago,Implemented flying and swimming (assets are needed). Tidied up code in Levels to avoid multiple for loops over all of location arrays (more efficient)
+ff631f5,Scott Brown,3 days ago,World Map Screen
+ed9729c,Scott Brown,4 days ago,Fix needed to avoid crashing due to objective not being created to be completed
+83291bc,Scott Brown,4 days ago,Display current location on screen from TileMap
+b865a79,Scott Brown,4 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+3702917,Scott Brown,4 days ago,Fixed an import
+1aff45c,John Wright,4 days ago,Removed Visibility
+95f03a0,John Wright,4 days ago,Removed blockages, added a second layer - Location layer containing properties for each location.
+ffa0513,Scott Brown,4 days ago,Updated imports to remove un-necessary imports. Fixed eclipse warnings.
+26e873f,Scott Brown,5 days ago,Objectives screen working
+8d341a1,Scott Brown,7 days ago,Created an objectives screen - needs to be populated with objectives
+de6b6ab,DavidHarvey426,8 days ago,Added EvilNPC +unique skill. accounted for EvilNPC in Objective comments. balanced Roboduck stats.
+81989dc,Scott Brown,8 days ago,Created an Objectives class - contains all objectives and methods to check whether complete
+c96c971,Scott Brown,8 days ago,Tidied up UI PartyMenu - eliminating duplicated code
+607b623,Scott Brown,8 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+6cb403e,Scott Brown,8 days ago,Comment out tests that aren't complete
+072fe71,David Harvey,8 days ago,fixed objective names
+e45153f,David Harvey,8 days ago,added defeat RoboDuck objective
+fe8a7a3,David Harvey,8 days ago,added talk to sally objective
+a88868b,David Harvey,8 days ago,added battle objectives
+0f924f5,David Harvey,8 days ago,added objective variables
+1a4fabe,David Harvey,8 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+e36e94d,David Harvey,8 days ago,cleaned code
+6de2beb,Scott Brown,8 days ago,Merge branch 'master' of https://github.com/sib506/Merganser3
+c0b2b50,Scott Brown,8 days ago,Created a WinScreen (needs to be implemented somewhere) and a GameOver screen (if all ducks die within a  battle)
+a5e1cdd,David Harvey,8 days ago,added 0-cost attack to all party members
+db224ca,David Harvey,8 days ago,shuffled skills
+1e35bc4,David Harvey,8 days ago,created 0-cost attack
+55ffba6,David Harvey,8 days ago,created new skills
+2b3bacc,Scott Brown,8 days ago,Attempt some more tests
+b5ea367,Scott Brown,9 days ago,A few unit tests
+fef49d0,Scott Brown,12 days ago,SetUp JUnit Testing
+c29b3a2,Scott Brown,2 weeks ago,Fixed memory leak
+301f3e1,Scott Brown,2 weeks ago,Set up
+45fe126,Scott Brown,2 weeks ago,Project setup
+a8b83f4,Scott Brown,2 weeks ago,Initial commit
